@@ -1,0 +1,59 @@
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    font-weight: 700;
+    color: rgb(0, 255, 30);
+    position:absolute;
+    top: 70%;
+    left: 10px;
+}
+.centrado{
+    color: rgb(0, 255, 30);
+    position: absolute;
+    font-weight: 700;
+    top: 90%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.img-autos-venta{
+    width: 50%;
+    float: left;
+}
+.h3-div-auto{
+    margin-bottom: 10px;
+}
+.h4-div-auto{
+    margin-bottom: 10px;
+}
+.label-div-auto{
+    margin-bottom: 10px;
+}
+.potencia-div-auto{
+    margin-right: 20px;
+}.km-div-auto{
+    margin-right: 20px;
+}.puertas-div-auto{
+    margin-right: 20px;
+}
+
+.div-auto{
+    background-color: rgb(209, 209, 209);
+    border: 1px solid black;
+    margin: 10px 0px ;
+    padding: 10px;
+    width: 50%;
+}
+.button-div-auto{
+    display: block;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+
+}
