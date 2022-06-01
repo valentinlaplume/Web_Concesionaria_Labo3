@@ -1,6 +1,5 @@
 import {
-    createTable,
-    createDivVehiculo
+    createTable
 } from "./dinamicas.js";
 
 import Anuncio_Auto from "./anuncio_auto.js";
