@@ -2,7 +2,7 @@ import Anuncio from "./anuncio.js";
 
 export default class Anuncio_Auto extends Anuncio{
 
-    constructor(id, 
+    constructor(/*id,*/ 
         titulo, 
         transaccion, 
         descripcion,
@@ -12,7 +12,7 @@ export default class Anuncio_Auto extends Anuncio{
         potencia) 
         {
 
-        super(id, 
+        super(/*id,*/ 
         titulo, 
         transaccion, 
         descripcion,

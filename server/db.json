@@ -1,0 +1,44 @@
+{
+  "anuncios": [
+    {
+      "id": 1,
+      "titulo": "Hamer",
+      "transaccion": "alquiler",
+      "descripcion": "La mejor hammer",
+      "precio": 50000,
+      "cantidadPuertas": 4,
+      "km": 130000,
+      "potencia": 180
+    },
+    {
+      "id": 2,
+      "titulo": "Fox",
+      "transaccion": "venta",
+      "descripcion": "es una naveeee",
+      "precio": 120000,
+      "cantidadPuertas": 4,
+      "km": 132000,
+      "potencia": 130
+    },
+    {
+      "id": 3,
+      "titulo": "Ferrari",
+      "transaccion": "venta",
+      "descripcion": "la mejor de todas, la mas rapida",
+      "precio": 9000000,
+      "cantidadPuertas": 4,
+      "km": 0,
+      "potencia": 500
+    },
+    {
+      "id": 4,
+      "titulo": "BMW X6",
+      "transaccion": "alquiler",
+      "descripcion": "4x4, motor con mucha fuerza",
+      "precio": 3500000,
+      "cantidadPuertas": 4,
+      "km": 90000,
+      "potencia": 350
+    }
+  ]
+}

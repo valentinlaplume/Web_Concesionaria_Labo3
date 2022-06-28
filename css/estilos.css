@@ -3,16 +3,27 @@ body{
 }
 
 header{
-    background-color: rgb(36, 97, 142);
-    margin: 0px 80px;
+    /* background-color: transparent; */
+    background-color: rgb(0, 0, 0);
+    opacity: 95%;
+    width: 100%;
+    font-size: 16px;
 }
 .img-logo{
     display: inline-block;
+    padding-left: 0px;
+    margin-right: auto;
+    width: 11%;
+    /* display: inline-block;
     vertical-align: middle;
-    width: 70px;
+    width: 70px; */
 }
 .img-autos{
-    display: flex;
+    height: 200px;
+    background-image: url(../img/headerAutos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 63%;
 }
 .img-logo-create{
     width: 30px;
@@ -22,15 +33,17 @@ header{
 
 main{
     background-color: rgb(255, 255, 255);
-    background-size: 100%;
     margin: 0px 80px;
     padding: 1px 0px;
+
 }
 footer{
     background-color: rgb(36, 97, 142);
+    text-decoration: none;
+    color: white;
     margin: 0px 80px;
     font-size: 15px;
-    padding: 5px 10px;
+    padding: 7px 10px;
     margin-top: 10px;
 }
 .lbl-derechos{
@@ -41,6 +54,7 @@ footer{
 h1{
     text-align: center;
     padding: 10px;
+    text-transform: capitalize;
 }
 h2{
     text-align: center;
@@ -55,9 +69,9 @@ h2{
     padding: 5px 0px;
 }
 .section-tabla{
+    width: 100%;
     display: flex;
     justify-content: center;
-    margin: 10px auto;
     padding: 5px 0px;
     margin-bottom: 50px;
 }
@@ -75,14 +89,14 @@ h2{
     margin: 0px 10px;
 }
 
-table{
+.tabla{
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
 }
 .div-spinner{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     align-content: center;
 }
@@ -91,8 +105,10 @@ table{
     margin: 0px 10px;
 }
 
+
 .div-input{
     margin: 10px 0px;
+    padding: 10px;
 }
 
 .form-subtitulo{
@@ -191,17 +207,31 @@ input[type=submit]{
     border: 0px;
     border-radius: 5px;
 }
+.btn-buscar{
+    background-color: rgb(255, 147, 145);
+    color: white;
+    font-size: 15px;
+    padding: 10px 0px;
+    width: 20%;
+    cursor: pointer;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
 
-table{
+.tabla{
     width: 100%;
     border-collapse: collapse;
+    align-items: center;
 }
 
 .tabla-cabecera{
-    background-color: rgb(247, 179, 179);
+    background-color: rgb(255, 147, 145);
     color: rgb(12, 12, 12);
     font-size: 17px;
     font-weight:900;
+    text-align: center;
 }
 th{
     padding: 5px 8px;
@@ -219,9 +249,83 @@ td{
     border-bottom: 1px solid black;
 }
 .td-row:hover{
-    background-color: rgb(61, 61, 61);
-    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: rgb(4, 255, 0);
     cursor: pointer;
+}
+.section-acciones-tabla{
+    background-color:rgb(221, 221, 221);
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.container-checkbox-campos-tabla
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 15px 10px;
+    margin-bottom: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container-filtrado-tabla{
+    padding: 15px 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.checkbox-table
+{
+    vertical-align: bottom;
+    position: relative;
+    right: 22px;
+    height:20px; 
+    margin-left: 30px;
+}
+
+@media (max-width: 1000px){
+    .container-checkbox-campos-tabla
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .cmbTransaccion{
+        float: left;
+    }
+
+}
+
+.contenedor-filtros{
+    display: flex;
+}
+
+
+.label-subtitulo{
+    font-weight:700;
+    font-size: 17px;
+}
+.label-subtitulo2{
+    font-weight:700;
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.cmb{
+    margin-left: 15px;
+    text-transform: capitalize;
+    font-size: 17px;
+    width: 150px;
+    padding: 1px 0px;
+}
+.option-cmb{
+    text-transform: capitalize;
+    font-size: 17px;
 }
 
 

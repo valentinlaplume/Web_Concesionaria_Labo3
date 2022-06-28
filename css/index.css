@@ -1,3 +1,20 @@
+
+/* main{
+    background-image: url(../img/fondoIndex.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 15%;
+} */
+
+
+
+main{
+    background-image: url(../img/fondoIndex.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 15%;
+}
+
 .contenedor{
     position: relative;
     display: inline-block;
@@ -5,31 +22,43 @@
 }
 .texto-encima{
     font-weight: 700;
-    color: rgb(0, 255, 30);
+    color: rgb(0, 251, 251);
     position:absolute;
-    top: 70%;
+    top: 25%;
     left: 10px;
 }
 .centrado{
-    color: rgb(0, 255, 30);
+    color: rgb(0, 251, 251);
     position: absolute;
     font-weight: 700;
-    top: 90%;
-    left: 20%;
+    top: 32%;
+    left: 22%;
     transform: translate(-50%, -50%);
 }
 
+h1{
+    color: white;
+    text-transform: capitalize;
+}
 
 
-.img-autos-venta{
-    width: 50%;
-    float: left;
+/* Muestra de autos en index */
+h3{
+    margin-top: 5PX;
+    margin-bottom: 13px;
+    font-size: 25px;
+    text-align: left;
 }
 .h3-div-auto{
+    text-transform: capitalize;
     margin-bottom: 10px;
+    font-weight: 500;
+    text-align: left;
 }
 .h4-div-auto{
     margin-bottom: 10px;
+    text-align: left;
+    color: rgb(68, 130, 20);
 }
 .label-div-auto{
     margin-bottom: 10px;
@@ -43,17 +72,28 @@
 }
 
 .div-auto{
+    text-transform: capitalize;
     background-color: rgb(209, 209, 209);
     border: 1px solid black;
+    border-radius: 5px;
     margin: 10px 0px ;
     padding: 10px;
     width: 50%;
 }
 .button-div-auto{
     display: block;
-    background-color: orange;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0px;
+    border: 1px solid black;
+    background-color: rgb(238, 168, 38);
     color: white;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 12px;
+    font-weight: 600;
+}
 
+.button-div-auto:hover{
+    background-color: rgb(188, 127, 12);
+    cursor: pointer;
 }

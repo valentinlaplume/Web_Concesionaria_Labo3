@@ -4,6 +4,13 @@ function createTable(arr){
     { 
         table.appendChild(createHead(arr[0]));
         table.appendChild(createBody(arr));
+
+        // table.setAttribute("class", "table-striped");
+        table.classList.add("tabla");
+        // table.classList.add("table-dark");
+        table.classList.add("table-responsive");
+        table.classList.add("table-hover");
+        
         
     }else{ 
         console.log("function createTable: Parametro 'arr' no es array o length = 0."); 
@@ -25,7 +32,7 @@ function createHead(obj){
             
             if(key.includes("cantidad")){
                 let restoKey = key.slice(8, key.length - 1);
-                let key2 = 'cantidad de ' + restoKey + 's';
+                let key2 = restoKey + 's';
                 th.textContent = key2;
             }
             else{
@@ -46,6 +53,8 @@ function createBody(arr){
     
     arr.forEach((obj, index) => {
         const tr = document.createElement("tr");
+
+        // tr.setAttribute("class", "bg-success");
 
         // ---- Agrego clases a las row body  ---- 
         tr.classList.add("td-row");

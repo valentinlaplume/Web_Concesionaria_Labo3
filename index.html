@@ -4,44 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/estilosNav.css">
     <link rel="stylesheet" href="./css/normalize.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./js/scriptsIndex.js" type="module" defer></script>
     <title>Inicio</title>
 </head>
+
 <body>
-    <header>
-        <img src="./img/logo.png" class="img-logo"></img>
-        <nav>
-            <button class="nav-menu">Menú</button>
-            <a href="administrar.html" class="nav-enlace nav-desaparece">Inicio</a>
-            <a href="administrar.html" class="nav-enlace nav-desaparece">Nosotros</a>
-            <a href="administrar.html" class="nav-enlace nav-desaparece">Servicios</a>
-            <a href="administrar.html" class="nav-enlace nav-desaparece">Contacto</a>
-        </nav>
-    </header>
-    <main>
-        
-        <img src="./img/headerAutos.jpg" class="img-autos"></img>
-        <h1>Inicio</h1>
-        <div class="contenedor">
-        <img src="./img/ventaAutos.jpg" class="img-autos-venta"></img>
-            <div class="texto-encima">Venta y Alquiler de Vehiculos</div>
-            <div class="centrado">Exclusivos de Lujo</div>
-          </div>
+    <div class="div-spinner"></div> 
 
-          <section class="content-div-vehiculos"></section>
+    <div id="main-contenedor">
+        <main>
+            <header>
+                <nav>
+                    <img src="./img/logo.png" class="img-logo"></img>
+                    <button class="nav-menu">Menú</button>
+                    <a href="administrar.html" class="nav-enlace nav-desaparece">Inicio</a>
+                    <a href="administrar.html" class="nav-enlace nav-desaparece">Nosotros</a>
+                    <a href="administrar.html" class="nav-enlace nav-desaparece">Servicios</a>
+                    <a href="administrar.html" class="nav-enlace nav-desaparece">Contacto</a>
+                </nav>
+            </header>
+            
+            <center>
+            <h1>Inicio</h1>
+                <section class="content-div-vehiculos"></section>
+            </center>
+        </main>
+    </div>
 
-
-    </main>
-    <footer class="">  
-        <a href="administrar.html" class=".nav-enlace-footer">Inicio</a>
-        <a href="administrar.html" class=".nav-enlace-footer">Nosotros</a>
-        <a href="administrar.html" class=".nav-enlace-footer">Servicios</a>
-        <a href="administrar.html" class=".nav-enlace-footer">Contacto</a>
+    <!-- <footer >  
+        <a href="administrar.html" class="nav-enlace-footer">Inicio</a>
+        <a href="administrar.html" class="nav-enlace-footer">Nosotros</a>
+        <a href="administrar.html" class="nav-enlace-footer">Servicios</a>
+        <a href="administrar.html" class="nav-enlace-footer">Contacto</a>
         <label class="lbl-derechos">Todos los Derechos Reservados 2022</label>
+    </footer> -->
+
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <a href="index.html" class="text-dark">Inicio</a>&nbsp;
+            <a href="index.html" class="text-dark">Nosotros</a>&nbsp;
+            <a href="index.html" class="text-dark">Servicios</a>&nbsp;
+            <a href="index.html" class="text-dark">Contacto</a>&nbsp;
+            © 2020 Copyright:
+            &nbsp;&nbsp;&nbsp;
+        </div>
     </footer>
 </body>
 </html>
