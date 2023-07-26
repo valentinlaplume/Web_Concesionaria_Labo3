@@ -22,7 +22,7 @@ La información sobre los anuncios se almacena en el navegador del usuario utili
 -Navega a la carpeta del proyecto y abre el archivo index.html en tu navegador.
 -Ahora puedes explorar la página web y probar las diferentes funcionalidades, como ver la lista de autos, realizar búsquedas y agregar nuevos anuncios.
 
-### **Cómo funciona el localStorage
+### **Cómo funciona el localStorage**
 La página web utiliza el objeto localStorage de JavaScript para almacenar los datos de los anuncios localmente en el navegador del usuario. 
 Cada vez que un nuevo anuncio es agregado o se actualiza la lista de autos, los datos se guardan en el localStorage. 
 Esto permite que los anuncios persistan incluso después de cerrar la página. 
