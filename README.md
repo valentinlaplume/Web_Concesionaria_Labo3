@@ -1,5 +1,5 @@
 # Concesionaria - Página Web
-**[PDF CON LA CONSIGNA DE PARCIALES]([https://github.com/valentinlaplume/Web_Concesionaria_Labo3/blob/master/Segundo%20parcial%20-%202022%20-%20Tema1.pdf])**
+[PDF CON LA CONSIGNA DE PARCIALES](https://github.com/valentinlaplume/Web_Concesionaria_Labo3/blob/master/Segundo%20parcial%20-%202022%20-%20Tema1.pdf)
 
 Esta página web es una plataforma para una concesionaria de autos, donde se pueden publicar anuncios de los vehículos disponibles para la venta.
 Los usuarios pueden ver la lista de autos, buscar por filtros específicos y agregar nuevos anuncios.
